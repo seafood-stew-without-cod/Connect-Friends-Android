@@ -44,7 +44,7 @@
             android:id="@+id/textView2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="음.. 변경 예정"
+            android:text="소중한 인연을 위한 당신의 명함을 만들어요!"
             android:textColor="@color/dark_gray"
             app:layout_constraintStart_toStartOf="@+id/guideline2"
             app:layout_constraintTop_toBottomOf="@+id/textView" />
