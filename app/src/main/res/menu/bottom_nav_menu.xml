@@ -12,5 +12,5 @@
     <item
         android:id="@+id/qrScannerFragment"
         android:icon="@drawable/ic_qrcode"
-        android:title="카테고리" />
+        android:title="QR 코드" />
 </menu>
