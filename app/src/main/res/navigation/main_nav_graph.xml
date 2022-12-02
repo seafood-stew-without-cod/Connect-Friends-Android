@@ -1,5 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/main_nav_graph">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_nav_graph"
+    app:startDestination="@id/homeFragment2">
 
+    <fragment
+        android:id="@+id/homeFragment2"
+        android:name="com.g3c1.myapplication.fragment.HomeFragment"
+        android:label="HomeFragment" >
+        <action
+            android:id="@+id/action_homeFragment2_to_categoryFragment2"
+            app:destination="@id/categoryFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/categoryFragment2"
+        android:name="com.g3c1.myapplication.fragment.CategoryFragment"
+        android:label="CategoryFragment" >
+        <action
+            android:id="@+id/action_categoryFragment2_to_QRScannerFragment"
+            app:destination="@id/QRScannerFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/QRScannerFragment"
+        android:name="com.g3c1.myapplication.fragment.QRScannerFragment"
+        android:label="QRScannerFragment" />
 </navigation>
